@@ -21,4 +21,8 @@ Publish package to Marketplace using command line
     If you needed to create the new GUID to use it in the manifest file use powershell to generate one
     <code> [guid]::NewGuid() </code>this wil generate guid which can be used in the manifest file.
   </li>
+  
+  <li>
+    Other useful <a href="https://docs.microsoft.com/en-gb/vsts/extend/get-started/node?view=vsts">links </a>
+    </li>
 </ol>
