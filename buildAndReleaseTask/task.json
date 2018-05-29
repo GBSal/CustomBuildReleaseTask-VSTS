@@ -1,0 +1,40 @@
+{
+    "id": "7679bd10-f1e2-461b-9ee9-a3374d672ba1",
+    "name": "Generate DB Script",
+    "friendlyName": "Deployment Script",
+    "description": "To generate the db script for deployment",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "visibility": [
+        "Build"
+    ],
+    "author": "MSal",
+    "version": {
+        "Major": 0,
+        "Minor": 1,
+        "Patch": 0
+    },
+    "instanceNameFormat": "Name the Database  $(samplestring)",
+    "groups": [
+        {
+            "name": "advanced",
+            "displayName": "Advanced",
+            "isExpanded": false
+        }
+    ],
+    "inputs": [
+        {
+            "name": "samplestring",
+            "type": "string",
+            "label": "Sample String",
+            "defaultValue": "",
+            "required": false,
+            "helpMarkDown": "A sample string"
+        }
+    ],
+    "execution": {
+        "Node": {
+            "target": "index.js"
+        }
+    }
+}
